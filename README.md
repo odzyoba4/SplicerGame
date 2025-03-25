@@ -9,8 +9,7 @@ I took the role of programmer in this 5-person class project, during which I lea
 I worked with the player mechanics and movement, the UI/HUD, saving/level progression, and enemies. During this time, I learned more about the C# language, particularly about event-driven architecture.
 <br/>
 
-GameController Class Diagram:
-![CentipedeGameFlow](/images/CentipedeGameFlow.png)
+|![Keyboard Input Prompt](/images/keyboardInputExample.png) |![Controller Input Prompt](/images/controllerInputExample.png) |
 
 ## Player Input & Controller Support
 One of my most robust systems was the player input, which was recognized with Unity's new input system. 
