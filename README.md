@@ -14,7 +14,7 @@ One of my most robust systems was the player input, which was recognized with Un
 <br>
 A large challenge was displaying the correct binding on-screen based on whether a controller or a mouse/keyboard was being used, and allowing the user to switch seamlessly. I wanted to avoid at all costs checking for such a change every frame. Instead, I made all necessary HUD elements subscribe to an event on initialization, which would be invoked as soon as a player switched input types:
 <br>
-| ![Buttom Prompt example](/images/buttonPromptExample.png) | ![Buttom Prompt example](/images/buttonPromptExample.png)|
+| ![Buttom Prompt example](/images/buttonPromptExample.png) | ![Buttom Prompt example](/images/swappableUIExample.png)|
 | -------------------------------- | ----------------------------------------|
 
 <br>
