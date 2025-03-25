@@ -12,10 +12,17 @@ I worked with the player mechanics and movement, the UI/HUD, saving/level progre
 ## Player Input & Controller Support
 One of my most robust systems was the player input, which was recognized with Unity's new input system. 
 <br>
-A large challenge was displaying the correct binding on-screen based on whether a controller or a mouse/keyboard was being used, and allowing the user to switch seamlessly. I wanted to avoid at all costs checking for such a change every frame. Instead, I made all necessary HUD elements subscribe to an event on initialization, which would be invoked as soon as a player switched input types. This way, any button prompt on the screen would instantly update itself without much overhead.
-<br/> 
-|![Keyboard Input Prompt](/images/keyboardInputExample.png) |![Controller Input Prompt](/images/controllerInputExample.png) |
+A large challenge was displaying the correct binding on-screen based on whether a controller or a mouse/keyboard was being used, and allowing the user to switch seamlessly. I wanted to avoid at all costs checking for such a change every frame. Instead, I made all necessary HUD elements subscribe to an event on initialization, which would be invoked as soon as a player switched input types:
+<br>
+| ![Buttom Prompt example](/images/buttonPromptExample.png) | ![Buttom Prompt example](/images/buttonPromptExample.png)|
 | -------------------------------- | ----------------------------------------|
+
+<br>
+This way, any button prompt on the screen would instantly update itself without much overhead.
+<br/> 
+
+|![Keyboard Input Prompt](/images/keyboardInputExample.png) |![Controller Input Prompt](/images/controllerInputExample.png) |
+| -------------------------------- | -----------------------------------------|
 
 <br/>
 
