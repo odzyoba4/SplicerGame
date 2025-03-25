@@ -58,7 +58,7 @@ public class DebugLineRenderer : MonoBehaviour
                 }
             }
             //all slots were full if reaching this point
-            Debug.LogError("DebugLineRenderer: Limit exceeded. To draw this line, increase Lines size");
+            Debug.LogError("Limit exceeded. To draw this line, increase \"lines\" list size");
         }
     }
 
