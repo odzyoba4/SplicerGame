@@ -1,21 +1,20 @@
 # Splicer
-3D Unity first-person street brawler game created with a team of 5 developers. <br>
-[Game Website](https://frigid-vtx.itch.io/splicers) <br></br>
-
-<a href="https://google.com" target="_blank" rel="noopener noreferrer">Open in new tab</a>
+3D Unity first-person street brawler game created with a team of 5 developers. 
+<br>
+[Game Website](https://frigid-vtx.itch.io/splicers) 
+<br>
 
 ## Overview
 I took the role of programmer in this 5-person team project, during which I learned to develop game systems using the Unity engine.
 I worked with the player mechanics and movement, the UI/HUD, saving/level progression, and enemies.
-
-One of my most robust systems was the player input, which was recognized with Unity's new input system. During this time, I learned more about the C# language, particularly about event-driven architecture.
-A large challenge with player input was displaying the correct binding on-screen based on whether a controller or a mouse/keyboard was being used.<br/>
+<br/>
 
 GameController Class Diagram:
 ![CentipedeGameFlow](/images/CentipedeGameFlow.png)
 
-## Finite State Machine (Centipede)
-One of the systems I implemented was the main centipede's movement. To do this, I used a finite state machine to create static state classes to decide between actions that the centipede took when going in a zig-zag motion.
+## Player Input & Controller Support
+One of my most robust systems was the player input, which was recognized with Unity's new input system. During this time, I learned more about the C# language, particularly about event-driven architecture.
+A large challenge with player input was displaying the correct binding on-screen based on whether a controller or a mouse/keyboard was being used.
 <br/> 
 
 Class Diagram: <br/>
