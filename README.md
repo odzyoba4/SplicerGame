@@ -10,6 +10,7 @@ I worked with the player mechanics and movement, the UI/HUD, saving/level progre
 <br/>
 
 |![Keyboard Input Prompt](/images/keyboardInputExample.png) |![Controller Input Prompt](/images/controllerInputExample.png) |
+| -------------------------------- | ----------------------------------------|
 
 ## Player Input & Controller Support
 One of my most robust systems was the player input, which was recognized with Unity's new input system. 
