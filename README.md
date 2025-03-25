@@ -1,6 +1,6 @@
 # Splicer
 3D Unity first-person street brawler game created with a team of 5 developers. <br>
-[Game Website](frigid-vtx.itch.io/splicers) <br></br>
+[Game Website](https://frigid-vtx.itch.io/splicers) <br></br>
 
 ## Overview
 I took the role of programmer in this 5-person team project, during which I learned to develop game systems using the Unity engine.
